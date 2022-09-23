@@ -16,6 +16,8 @@ app.get("/", function(req, res) {
     res.send(fs.readFileSync("./public/html/main.html", "utf8"));
   });
 
+
+  
 // RUN SERVER
 let port = process.env.PORT || 8000;
 app.listen(port);
