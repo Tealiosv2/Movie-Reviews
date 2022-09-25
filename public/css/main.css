@@ -24,6 +24,8 @@ header
     z-index: 1;
 
     font-size: 2em;
+
+    background-color: rgb(49, 0, 119);
 }
 
 header .logo
@@ -56,14 +58,14 @@ header ul li a
     font-weight: bold;
     text-decoration: none;
     padding: 6px 15px;
-    color: rgb(0, 0, 0);
-    border-radius: 20px; /* turns button round */
+    color: rgb(255, 255, 255);
+    border-radius: 30px; /* turns button round */
 }
 
 header ul li a:hover,
 header ul li a.active
 {
-    background: rgb(255, 0, 0);
+    background: rgb(255, 191, 0);
     color: #ffffff;
 }
 
