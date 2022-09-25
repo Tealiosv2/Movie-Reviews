@@ -11,28 +11,104 @@
     scroll-behavior: smooth;
 }   
 
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+    font-size: 2em;
+}
+
+header .logo
+{
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none; /* no bullet points */
+    margin-left: 20px;
+}
+
+header ul li a
+{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px; /* turns button round */
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: rgb(255, 0, 0);
+    color: #ffffff;
+}
+
 .intro 
 {
     height: 100vh;
+    background-color: rgb(44, 0, 106);
+
+    
 }
 
 .intro section
 {
-    margin-left: auto;
+    padding-top: 25vh;
+
+    margin-left: 20vh;
     margin-right: auto;
 
     margin-top: 100px;
     margin-bottom: 100px;
 
     position: relative;  
+
+    letter-spacing: 0.05em;
+}
+
+.intro h1 
+{
+    color: white;
+    font-style: bold;
+    font-size: 7vh;
+
+    width: 20em;
+
+    padding-bottom: 20px;
 }
 
 .intro h2 
 {
-    text-transform: uppercase;
+    color: white;
 
-    font-weight: 300;
-    font-size: 5vh;
+    font-weight: 400;
+    font-size: 3vh;  
+ 
+    line-height: 1.5;
 
-    width: 10em;
+    width: 20em;
 }
