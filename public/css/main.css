@@ -13,7 +13,7 @@
 
 header
 {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -23,7 +23,7 @@ header
     align-items: center;
     z-index: 1;
 
-    font-size: 2em;
+    font-size: 1.6em;
 
     background-color: rgb(49, 0, 119);
 }
@@ -73,8 +73,6 @@ header ul li a.active
 {
     height: 100vh;
     background-color: rgb(44, 0, 106);
-
-    
 }
 
 .intro section
@@ -84,7 +82,6 @@ header ul li a.active
     margin-left: 20vh;
     margin-right: auto;
 
-    margin-top: 100px;
     margin-bottom: 100px;
 
     position: relative;  
