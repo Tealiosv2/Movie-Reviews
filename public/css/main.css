@@ -16,7 +16,7 @@
 
 header
 {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,9 +26,12 @@ header
     align-items: center;
     z-index: 1;
 
-    font-size: 1.6em;
+    font-size: 1.4em;
 
-    background-color: rgb(77, 1, 116);
+    background-color: rgba(78, 1, 116, 0.564);
+    backdrop-filter: blur(6px);
+
+    border-bottom: 1px solid rgba(53, 0, 79, 0.544);
 }
 
 header .logo
@@ -74,13 +77,13 @@ header ul li a.active
 
 .div-intro 
 {
-    height: 90vh;
+    height: 100vh;
     background-color: rgb(70, 0, 106);
 }
 
 .div-intro section
 {
-    padding-top: 25vh;
+    padding-top: 35vh;
 
     margin-left: 20vh;
     margin-right: auto;
