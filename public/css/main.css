@@ -28,7 +28,7 @@ header
 
     font-size: 1.6em;
 
-    background-color: rgb(70, 0, 119);
+    background-color: rgb(77, 1, 116);
 }
 
 header .logo
@@ -72,13 +72,13 @@ header ul li a.active
     color: #ffffff;
 }
 
-.intro 
+.div-intro 
 {
-    height: 100vh;
+    height: 90vh;
     background-color: rgb(70, 0, 106);
 }
 
-.intro section
+.div-intro section
 {
     padding-top: 25vh;
 
@@ -92,7 +92,7 @@ header ul li a.active
     letter-spacing: 0.05em;
 }
 
-.intro h1 
+.div-intro h1 
 {
     color: white;
     font-style: bold;
@@ -103,7 +103,7 @@ header ul li a.active
     padding-bottom: 20px;
 }
 
-.intro h2 
+.div-intro h2 
 {
     color: white;
 
@@ -113,4 +113,83 @@ header ul li a.active
     line-height: 1.7;
 
     width: 20em;
+}
+
+.div-summary
+{
+    height: 100vh;
+    background-color: rgb(77, 1, 116);
+}
+
+.div-summary section
+{
+    padding-top: 12vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 100px;
+
+    position: relative;  
+
+    letter-spacing: 0.05em;
+}
+
+.div-summary h3
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 3vh;
+
+    text-align: center;
+}
+
+.div-summary h2
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 10em;
+
+    color: white;
+
+    font-size: 8vh;
+
+    text-align: center;
+}
+
+.div-category 
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+
+    width: 100vh;
+    max-width: 800px; /*in case stretched screen*/
+
+    background-color: rgb(65, 0, 98);
+
+    border-radius: 10px;
+}
+
+.div-category .category-title
+{
+    color: white;
+
+    font-size: 4vh;
+    font-weight: 700;
+
+    margin-bottom: 1.2vh;
+}
+
+.div-category .category-caption
+{
+    color: white;
+
+    font-size: 3vh;
+    font-weight: 300;
 }
