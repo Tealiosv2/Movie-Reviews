@@ -199,7 +199,7 @@ header ul li a.active
     font-weight: 300;
 }
 
-.hightlight
+.h1-hightlight
 {
     transition: background .45s;
     background-image: linear-gradient(transparent 60%, #8100ab 60%);
@@ -208,8 +208,7 @@ header ul li a.active
     background-position: top center;
 }
 
-.hightlight:hover
+.h1-hightlight:hover
 {   
-    background-image: linear-gradient(transparent 60%, #9100c2 60%);
     background-size: 100% 100%;
 }
