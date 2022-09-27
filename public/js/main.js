@@ -1,5 +1,6 @@
 //scripting for main.html
 
+/*
 var one = 0;
     function click1(){
       one = one + 1;
@@ -8,4 +9,4 @@ var one = 0;
         one = 0;
         }
     }
-
+*/
