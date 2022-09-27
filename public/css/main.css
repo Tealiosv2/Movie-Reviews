@@ -1,24 +1,19 @@
 /** stylesheet for main.html **/
-/*@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&display=swap');
-*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&display=swap');
 
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*
+    /*font-family: 'Poppins', sans-serif;*/
     font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;*/
-    font-family: 'Raleway', sans-serif;
-    
     scroll-behavior: smooth;
 }   
 
 header
 {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,12 +23,7 @@ header
     align-items: center;
     z-index: 1;
 
-    font-size: 1.4em;
-
-    background-color: rgba(78, 1, 116, 0.564);
-    backdrop-filter: blur(6px);
-
-    border-bottom: 1px solid rgba(53, 0, 79, 0.544);
+    font-size: 2em;
 }
 
 header .logo
@@ -66,34 +56,33 @@ header ul li a
     font-weight: bold;
     text-decoration: none;
     padding: 6px 15px;
-    color: rgb(255, 255, 255);
-    border-radius: 5px; /* turns button round */
+    color: rgb(0, 0, 0);
+    border-radius: 20px; /* turns button round */
 }
 
 header ul li a:hover,
 header ul li a.active
 {
-    background: orange;
+    background: rgb(255, 0, 0);
     color: #ffffff;
 }
 
-.div-intro 
+.intro 
 {
-    background: url(/img/movies-3.svg) center / contain no-repeat;
-    background-size: 150vh;
-
     height: 100vh;
+    background-color: rgb(44, 0, 106);
+
     
-    background-color: rgb(70, 0, 106);
 }
 
-.div-intro section
+.intro section
 {
-    padding-top: 37vh;
+    padding-top: 25vh;
 
     margin-left: 20vh;
     margin-right: auto;
 
+    margin-top: 100px;
     margin-bottom: 100px;
 
     position: relative;  
@@ -101,18 +90,18 @@ header ul li a.active
     letter-spacing: 0.05em;
 }
 
-.div-intro h1 
+.intro h1 
 {
     color: white;
-    font-style: 700;
-    font-size: 7.5vh;
+    font-style: bold;
+    font-size: 7vh;
 
     width: 20em;
 
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
-.div-intro h2 
+.intro h2 
 {
     color: white;
 
@@ -123,124 +112,3 @@ header ul li a.active
 
     width: 20em;
 }
-
-.div-summary
-{
-    height: 100vh;
-    background-color: rgb(77, 1, 116);
-}
-
-.div-summary section
-{
-    padding-top: 12vh;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-bottom: 100px;
-
-    position: relative;  
-
-    letter-spacing: 0.05em;
-}
-
-.div-summary h3
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-
-    padding:0.2em;
-
-    color: rgb(255, 255, 255);
-
-    font-size: 3vh;
-    font-weight: 700;
-
-    text-align: center;
-
-    background-color: orange;
-
-    border-radius: 5px;
-
-    width: 7em;
-}
-
-.div-summary h2
-{
-    
-    margin-left: auto;
-    margin-right: auto;
-
-    width: 10em;
-
-    color: white;
-
-    font-size: 8vh;
-
-    text-align: center;
-}
-
-.div-category 
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
-
-    width: 100vh;
-    max-width: 800px; /*in case stretched screen*/
-
-    background-color: rgb(65, 0, 98);
-
-    border-radius: 10px;
-}
-
-.div-category .category-title
-{
-    color: white;
-
-    font-size: 4vh;
-    font-weight: 700;
-
-    margin-bottom: 1.2vh;
-}
-
-.div-category .category-caption
-{
-    color: white;
-
-    font-size: 3vh;
-    font-weight: 300;
-}
-
-.h1-hightlight
-{
-    transition: background .45s;
-    background-image: linear-gradient(transparent 60%, #8100ab 60%);
-    background-size: 80% 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
-.h1-hightlight:hover
-{   
-    background-size: 100% 100%;
-}
-
-.h1-hightlight
-{
-    transition: background .45s;
-    background-image: linear-gradient(transparent 60%, #8100ab 60%);
-    background-size: 80% 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
-.p-highlight
-{   
-    background-image: linear-gradient(transparent 60%, #8100ab 60%);
-    background-size: 95% 120%;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
