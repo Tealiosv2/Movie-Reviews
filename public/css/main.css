@@ -22,34 +22,44 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 30px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
 
-    font-size: 1.4em;
-
-    background-color: rgba(78, 1, 116, 0.564);
+    background-color: rgba(90, 0, 134, 0.564);
     backdrop-filter: blur(6px);
 
-    border-bottom: 1px solid rgba(53, 0, 79, 0.544);
+    border-bottom: 1px solid rgba(76, 0, 114, 0.544);
 }
 
 header .logo
 {
+    font-size: 1.9em;
+
+    overflow: visible;
+
+    background: url(/img/icon.svg) center left / contain no-repeat;
+
     color: rgb(255, 255, 255);
     
+    padding-left: 2.7em;
+
     text-decoration: none;
     text-transform: uppercase;
 
     font-weight: 700;
 
     letter-spacing: 2px;
+
+    
 }
 
 header ul
 {
+    font-size: 1.4em;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,12 +94,12 @@ header ul li a.active
 
     height: 100vh;
     
-    background-color: rgb(70, 0, 106);
+    background: linear-gradient(90deg, rgb(70, 0, 106), rgb(70, 0, 106));
 }
 
 .div-intro section
 {
-    padding-top: 37vh;
+    padding-top: 32vh;
 
     margin-left: 20vh;
     margin-right: auto;
@@ -99,6 +109,30 @@ header ul li a.active
     position: relative;  
 
     letter-spacing: 0.05em;
+}
+
+.btn-slide
+{
+    font-size: 2vh;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    color: white;
+
+    width: 8.5em;
+    padding: 0.4em;
+
+    background-color:orange;
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: inset 0 0 0 0 rgb(255, 185, 55);
+    transition: ease-out 0.3s;
+}
+
+.btn-slide:hover
+{
+    box-shadow: inset 9em 0 0 0 rgb(255, 202, 104);
 }
 
 .div-intro h1 
@@ -122,6 +156,8 @@ header ul li a.active
     line-height: 1.7;
 
     width: 20em;
+
+    padding-bottom: 25px;
 }
 
 .div-summary
