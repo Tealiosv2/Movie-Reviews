@@ -28,10 +28,10 @@ header
     align-items: center;
     z-index: 1;
 
-    background-color: rgba(90, 0, 134, 0.564);
+    background-color: rgba(100, 0, 134, 0.564);
     backdrop-filter: blur(6px);
 
-    border-bottom: 1px solid rgba(76, 0, 114, 0.544);
+    border-bottom: 1px solid rgba(80, 0, 114, 0.544);
 }
 
 header .logo
@@ -44,7 +44,7 @@ header .logo
 
     color: rgb(255, 255, 255);
     
-    padding-left: 2.7em;
+    padding-left: 2.4em;
 
     text-decoration: none;
     text-transform: uppercase;
@@ -89,12 +89,9 @@ header ul li a.active
 
 .div-intro 
 {
-    background: url(/img/movies-4.svg) center right / contain no-repeat;
-
+    background: url(/img/movies-4.svg) center right / contain no-repeat, linear-gradient(90deg, rgb(70, 0, 106), rgb(100, 0, 124));
 
     height: 100vh;
-    
-    background: linear-gradient(90deg, rgb(70, 0, 106), rgb(70, 0, 106));
 }
 
 .div-intro section
@@ -163,7 +160,7 @@ header ul li a.active
 .div-summary
 {
     height: 100vh;
-    background-color: rgb(77, 1, 116);
+    background-color: rgb(85, 1, 116);
 }
 
 .div-summary section
@@ -226,7 +223,7 @@ header ul li a.active
     width: 100vh;
     max-width: 800px; /*in case stretched screen*/
 
-    background-color: rgb(65, 0, 98);
+    background-color: rgb(70, 0, 98);
 
     border-radius: 10px;
 }
