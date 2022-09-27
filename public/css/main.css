@@ -79,6 +79,9 @@ header ul li a.active
 
 .div-intro 
 {
+    background: url(/img/movies-3.svg) center / contain no-repeat;
+    background-size: 150vh;
+
     height: 100vh;
     
     background-color: rgb(70, 0, 106);
