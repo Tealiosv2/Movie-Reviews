@@ -21,6 +21,10 @@ app.get("/", function(req, res) {
     res.send(fs.readFileSync("./public/html/HMC-review.html", "utf8"));
   });
 
+  app.get("/about", function(req, res) {
+    res.send(fs.readFileSync("./public/html/about.html", "utf8"));
+  });
+
 
   
 // RUN SERVER
