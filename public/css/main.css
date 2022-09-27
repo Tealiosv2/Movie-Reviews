@@ -47,7 +47,8 @@ header .logo
     padding-left: 2.4em;
 
     text-decoration: none;
-    text-transform: uppercase;
+    
+    /*text-transform: uppercase;*/
 
     font-weight: 700;
 
@@ -146,7 +147,8 @@ header ul li a.active
 
 .div-intro h2 
 {
-    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.781);
 
     font-weight: 400;
     font-size: 3vh;  
