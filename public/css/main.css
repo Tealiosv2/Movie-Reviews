@@ -67,13 +67,13 @@ header ul li a
     text-decoration: none;
     padding: 6px 15px;
     color: rgb(255, 255, 255);
-    border-radius: 30px; /* turns button round */
+    border-radius: 5px; /* turns button round */
 }
 
 header ul li a:hover,
 header ul li a.active
 {
-    background: rgb(255, 191, 0);
+    background: orange;
     color: #ffffff;
 }
 
@@ -146,15 +146,25 @@ header ul li a.active
     margin-right: auto;
     margin-bottom: 2vh;
 
-    color: rgba(255, 255, 255, 0.6);
+    padding:0.2em;
+
+    color: rgb(255, 255, 255);
 
     font-size: 3vh;
+    font-weight: 700;
 
     text-align: center;
+
+    background-color: orange;
+
+    border-radius: 5px;
+
+    width: 7em;
 }
 
 .div-summary h2
 {
+    
     margin-left: auto;
     margin-right: auto;
 
@@ -212,3 +222,21 @@ header ul li a.active
 {   
     background-size: 100% 100%;
 }
+
+.h1-hightlight
+{
+    transition: background .45s;
+    background-image: linear-gradient(transparent 60%, #8100ab 60%);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.p-highlight
+{   
+    background-image: linear-gradient(transparent 60%, rgb(255, 0, 119) 60%);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
