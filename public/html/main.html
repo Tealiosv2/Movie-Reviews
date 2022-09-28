@@ -16,23 +16,21 @@
         <a href="#" class="logo">Mov-E</a>
         <ul>
             <li><a href="#top" class="back-to-top-link"> Home </a></li>
-            <li><a href="#">List</a></li>
+            <li><a href="/review"> Ratings </a></li>
             <li><a href="/about"> About </a></li>
         </ul>
     </header>
-<div>
-    <div id="top"></div>
-</div>
+
     <div class="div-intro">
         <section>
             <h1>
-                <span class="hightlight">Mov-E Reviews.</span>
+                <span class="h1-highlight">We rate <span class="focus"></span></span>
             </h1>
             <h2>
-                Hey there stranger, we are some <b class="p-highlight">students</b> who enjoy watching <b class="p-highlight">movies</b>. Here are some of our <b class="p-highlight">ratings.</b> 
+                Hey there stranger, we are some <b class="p-highlight" style="color: rgb(0, 217, 255)">students</b> who enjoy exploring various <b class="p-highlight" style="color: rgb(255, 217, 0)">media</b>. Here are some of our <b class="p-highlight" style="color: rgb(255, 0, 238)">ratings</b>. 
             </h2>
 
-            <button class="btn-slide">VIEW RATINGS</button>
+            <button onclick="clickreview()" class="btn-slide">VIEW RATINGS</button>
         </section>
     </div>
 
@@ -59,18 +57,42 @@
         </section>
     </div>
 
+    <div class="div-about">
+        <section class="section-care">
+            <h3>ABOUT US</h3>
+            <h2 class="h2-care">But why should we care about this?</h2>
+            <h2 class="h2-why">You <span class="h2-highlight">shouldn't</span>.</h2>
+            <p>We made this for fun, without any <b>big .js frameworks</b>. We also created all of our own assets. Just a <b style="color: rgb(255, 252, 53)">personal project</b> for us.</p>
+        </section>
+        
+    </div>
 
+    <!--
     <div>
-        <!--takes to howl's moving castle reivew page-->
+        
         <a href="/HMC-review">howl's moving castle review</a>
     </div>
 
     <div>
         <img src="/img/andrew-gamer.jpg" alt="gamer">
     </div>
+    -->
+
 
     <!--links main.js to main.html-->
     <script src="/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".focus", {
+            strings: ["movies.", "shows.", "books."],
+            typeSpeed: 120,
+            backSpeed: 80,
+            loop: true,
+            backDelay: 2000
+        })
+    </script>
 
 </body>
 </html>

@@ -31,7 +31,7 @@ header
     background-color: rgba(100, 0, 134, 0.564);
     backdrop-filter: blur(6px);
 
-    border-bottom: 1px solid rgba(80, 0, 114, 0.544);
+    border-bottom: 1px solid rgba(80, 0, 114, 0.151);
 }
 
 header .logo
@@ -47,7 +47,8 @@ header .logo
     padding-left: 2.4em;
 
     text-decoration: none;
-    text-transform: uppercase;
+    
+    /*text-transform: uppercase;*/
 
     font-weight: 700;
 
@@ -90,7 +91,7 @@ header ul li a.active
 .div-intro 
 {
 
-    background: url(/img/movies-4.svg) center right / contain no-repeat, linear-gradient(90deg, rgb(70, 0, 106), rgb(100, 0, 124));
+    background: url(/img/movies.svg) center right / contain no-repeat, linear-gradient(90deg, rgb(70, 0, 106), rgb(100, 0, 124));
 
     height: 100vh;
 }
@@ -146,14 +147,15 @@ header ul li a.active
 
 .div-intro h2 
 {
-    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.781);
 
     font-weight: 400;
     font-size: 3vh;  
  
     line-height: 1.7;
 
-    width: 20em;
+    width: 21em;
 
     padding-bottom: 25px;
 }
@@ -247,7 +249,7 @@ header ul li a.active
     font-weight: 300;
 }
 
-.h1-hightlight
+.h1-highlight
 {
     transition: background .45s;
     background-image: linear-gradient(transparent 60%, #8100ab 60%);
@@ -256,25 +258,142 @@ header ul li a.active
     background-position: top center;
 }
 
-.h1-hightlight:hover
+.h1-highlight:hover
 {   
     background-size: 100% 100%;
 }
 
-.h1-hightlight
-{
-    transition: background .45s;
-    background-image: linear-gradient(transparent 60%, #8100ab 60%);
-    background-size: 80% 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
 .p-highlight
 {   
+    transition: background .45s;
     background-image: linear-gradient(transparent 60%, #8100ab 60%);
     background-size: 95% 120%;
     background-repeat: no-repeat;
     background-position: top center;
 }
 
+.p-highlight:hover
+{   
+    background-size: 100% 120%;
+}
+
+.div-about
+{
+    padding-top: 28vh;
+
+    height: 100vh;
+
+    position: relative;  
+
+    background:#8100ab;
+}
+
+.section-care
+{
+    margin-left: 20%;
+}
+
+.h2-care
+{
+    width: 60vh;
+
+    color: white;
+
+    font-size: 6vh;
+
+    text-align: left;
+}
+
+.h2-why
+{
+    margin-top: 5vh;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 6vh;
+
+    text-align: left;
+}
+
+.h2-highlight
+{
+    color: rgb(247, 215, 255);
+
+    background-color:#a300d9;
+
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+
+    border-radius: 10px;
+}
+
+.div-about p 
+{
+    margin-top: 5vh;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.781);
+
+    font-weight: 400;
+    font-size: 3vh;  
+ 
+    line-height: 1.7;
+
+    width: 21em;
+}
+
+/*
+
+.h2-highlight
+{
+    transition: background .45s;
+    background-image: linear-gradient(transparent 60%, #cf30ff 60%);
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.h2-highlight:hover
+{   
+    background-size: 100% 100%;
+}
+*/
+
+
+/*
+.section-why
+{
+    align-items: center;
+}
+
+.h2-why
+{
+    margin-right: 20%;
+
+    color: white;
+
+    font-size: 6vh;
+
+    text-align: right;
+}
+*/
+
+.div-about h3
+{
+    margin-bottom: 2vh;
+
+    padding:0.2em;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 3vh;
+    font-weight: 700;
+
+    text-align: center;
+
+    background-color: rgb(0, 136, 255);
+
+    border-radius: 5px;
+
+    width: 6em;
+}
