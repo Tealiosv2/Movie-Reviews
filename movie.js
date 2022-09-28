@@ -17,7 +17,7 @@ app.get("/", function(req, res) {
   });
 
   //returns howl's moving castle page
-  app.get("/HMC-review", function(req, res) {
+  app.get("/HMC", function(req, res) {
     res.send(fs.readFileSync("./public/html/HMC-review.html", "utf8"));
   });
 
