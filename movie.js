@@ -25,6 +25,10 @@ app.get("/", function(req, res) {
     res.send(fs.readFileSync("./public/html/about.html", "utf8"));
   });
 
+  app.get("/review", function(req, res) {
+    res.send(fs.readFileSync("./public/html/reviews.html", "utf-8"));
+  });
+
 
   
 // RUN SERVER
