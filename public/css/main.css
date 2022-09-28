@@ -91,7 +91,7 @@ header ul li a.active
 .div-intro 
 {
 
-    background: url(/img/movies-4.svg) center right / contain no-repeat, linear-gradient(90deg, rgb(70, 0, 106), rgb(100, 0, 124));
+    background: url(/img/movies.svg) center right / contain no-repeat, linear-gradient(90deg, rgb(70, 0, 106), rgb(100, 0, 124));
 
     height: 100vh;
 }
