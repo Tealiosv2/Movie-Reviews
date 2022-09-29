@@ -25,7 +25,7 @@ header
     align-items: center;
     z-index: 1;
 
-    background-color: rgba(100, 0, 134, 0.564);
+    background-color: rgba(100, 0, 134, 0.678);
     backdrop-filter: blur(6px);
 
     border-bottom: 1px solid rgba(80, 0, 114, 0.151);
@@ -33,7 +33,7 @@ header
 
 header .logo
 {
-    font-size: 1.9em;
+    font-size: 1.5em;
 
     overflow: visible;
 
@@ -56,7 +56,7 @@ header .logo
 
 header ul
 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 
     display: flex;
     justify-content: center;
@@ -83,4 +83,85 @@ header ul li a.active
 {
     background: orange;
     color: #ffffff;
+}
+
+
+
+.main 
+{
+    display: grid;
+    grid-template-rows: 40vh 1fr;
+
+    height: 100vh;
+}
+
+.intro 
+{
+    background-color: rgb(70, 0, 106);
+}
+
+.list
+{
+    background-color: rgb(70, 0, 106);
+
+    display: grid;
+    grid-template-columns: repeat(30vh 1fr 1fr);
+
+    grid-gap: 20px;
+}
+
+.rev 
+{
+    height: 40vh;
+    display:grid;
+    grid-template-columns: 30vh 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+.preview
+{
+    justify-items:center;
+    background-color:purple;
+}
+
+.preview img
+{
+    margin-top: 1.5vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    display:block;
+
+    object-fit: cover;
+    height: 30vh;
+}
+
+.preview h3
+{
+    margin-top: 1vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+
+    text-align: center;
+    
+    color: white;
+
+    font-size: 2.5vh;
+
+}
+
+.andrew-rev
+{
+    background-color: purple;
+}
+
+.wyman-rev
+{
+    background-color: purple;
+}
+
+.checked 
+{
+    color: orange;
 }
