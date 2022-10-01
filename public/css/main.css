@@ -11,7 +11,7 @@
     /*
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Poppins', sans-serif;*/
-    /*font-family: 'Raleway', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
     
     scroll-behavior: smooth;
 }   
@@ -32,8 +32,6 @@ header
     backdrop-filter: blur(6px);
 
     border-bottom: 1px solid rgba(80, 0, 114, 0.151);
-
-    font-family: 'Raleway', sans-serif;
 }
 
 header .logo
@@ -114,8 +112,6 @@ header ul li a.active
 
 .btn-slide
 {
-    font-family: 'Raleway', sans-serif;
-
     font-size: 2vh;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -140,8 +136,6 @@ header ul li a.active
 
 .div-intro h1 
 {
-    font-family: 'Poppins', sans-serif;
-
     color: white;
     font-style: 700;
     font-size: 7.5vh;
@@ -188,11 +182,9 @@ header ul li a.active
 
 .div-summary h3
 {
-    font-family: 'Raleway', sans-serif;
-
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
 
     padding:0.2em;
 
@@ -212,8 +204,7 @@ header ul li a.active
 
 .div-summary h2
 {
-    font-family: 'Poppins', sans-serif;
-
+    
     margin-left: auto;
     margin-right: auto; 
 
@@ -223,11 +214,9 @@ header ul li a.active
 
     color: white;
 
-    font-size: 7.5vh;
+    font-size: 8vh;
 
     text-align: center;
-
-    line-height: 10vh;
 }
 
 .div-category 
@@ -260,16 +249,14 @@ header ul li a.active
 
 .category-icon
 {
-    margin-left: 1vh;
-    margin-right: 3.5vh;
+    margin-left: 2vh;
+    margin-right: 3vh;
     display: inline-block;
     position: relative;
 }
 
 .div-category .category-title
 {
-    font-family: 'Raleway', sans-serif;
-
     color: white;
 
     font-size: 4vh;
@@ -290,7 +277,6 @@ header ul li a.active
 
 .h1-highlight
 {
-
     transition: background .45s;
     background-image: linear-gradient(transparent 60%, #8100ab 60%);
     background-size: 80% 100%;
@@ -335,7 +321,6 @@ header ul li a.active
 
 .h2-care
 {
-    font-family: 'Poppins', sans-serif;
     width: 60vh;
 
     color: white;
@@ -347,7 +332,6 @@ header ul li a.active
 
 .h2-why
 {
-    font-family: 'Poppins', sans-serif;
     margin-top: 5vh;
 
     color: rgb(255, 255, 255);
@@ -422,7 +406,6 @@ header ul li a.active
 
 .div-about h3
 {
-    font-family: 'Raleway', sans-serif;
     margin-bottom: 2vh;
 
     padding:0.2em;
