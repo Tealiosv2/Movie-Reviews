@@ -118,6 +118,8 @@ header ul li a.active
     grid-gap: 10px;
 }
 
+a { text-decoration: none; }
+
 
 .preview
 {
