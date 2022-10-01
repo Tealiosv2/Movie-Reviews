@@ -28,7 +28,7 @@ header
     align-items: center;
     z-index: 1;
 
-    background-color: rgba(100, 0, 134, 0.564);
+    background-color: rgba(100, 0, 134, 0.678);
     backdrop-filter: blur(6px);
 
     border-bottom: 1px solid rgba(80, 0, 114, 0.151);
@@ -36,7 +36,7 @@ header
 
 header .logo
 {
-    font-size: 1.9em;
+    font-size: 1.5em;
 
     overflow: visible;
 
@@ -59,7 +59,7 @@ header .logo
 
 header ul
 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 
     display: flex;
     justify-content: center;
@@ -162,7 +162,7 @@ header ul li a.active
 
 .div-summary
 {
-    height: 100vh;
+    height: 115vh;
     background-color: rgb(85, 1, 116);
 }
 
@@ -206,7 +206,9 @@ header ul li a.active
 {
     
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+
+    padding-bottom: 2vh;
 
     width: 10em;
 
@@ -221,7 +223,7 @@ header ul li a.active
 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vh;
+    margin-top: 3vh;
 
     width: 100vh;
     max-width: 800px; /*in case stretched screen*/
@@ -229,6 +231,28 @@ header ul li a.active
     background-color: rgb(70, 0, 98);
 
     border-radius: 10px;
+
+    padding: 3vh;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    justify-content: start;
+    align-items: start;
+}
+
+.category-content
+{
+    display: inline-block;
+    position: relative;
+}
+
+.category-icon
+{
+    margin-left: 2vh;
+    margin-right: 3vh;
+    display: inline-block;
+    position: relative;
 }
 
 .div-category .category-title
@@ -243,10 +267,12 @@ header ul li a.active
 
 .div-category .category-caption
 {
-    color: white;
+    color: rgba(255, 255, 255, 0.781);
 
-    font-size: 3vh;
-    font-weight: 300;
+    font-size: 2.5vh;
+    font-weight: 400;
+
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .h1-highlight
@@ -274,12 +300,12 @@ header ul li a.active
 
 .p-highlight:hover
 {   
-    background-size: 100% 120%;
+    background-size: 110% 120%;
 }
 
 .div-about
 {
-    padding-top: 28vh;
+    padding-top: 23vh;
 
     height: 100vh;
 
