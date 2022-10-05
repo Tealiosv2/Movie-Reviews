@@ -101,7 +101,7 @@ header ul li a.active
 .div-intro 
 {
 
-    background: url(/img/movies.svg) bottom right / contain no-repeat, linear-gradient(90deg, rgb(70, 0, 106), rgb(100, 0, 124));
+    background: url(/img/movies-fin.svg) bottom right / contain no-repeat, linear-gradient(90deg, rgb(75, 0, 106), rgb(100, 0, 124));
 
     height: 100vh;
 }
@@ -181,12 +181,12 @@ header ul li a.active
 }
 
 .fa {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
     font-size: 30px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
-    background-color: white;
   }
 
 .div-summary
