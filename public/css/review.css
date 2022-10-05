@@ -13,6 +13,15 @@
     scroll-behavior: smooth;
 }   
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 header
 {
     position: fixed;
@@ -89,20 +98,36 @@ header ul li a.active
 
 .main 
 {
+    
     display: grid;
     grid-template-rows: 40vh 1fr;
 
-    height: 100vh;
+    height: auto;
+
+    padding-left: 15vh;
+    padding-right: 15vh;
+   
+    background-color: rgb(80, 0, 106);
+}
+
+.main h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 8vh;
+
+    color: white;
+    
+    padding-top: 20vh;
 }
 
 .intro 
 {
-    background-color: rgb(70, 0, 106);
+    background-color: rgb(80, 0, 106);
 }
 
 .list
 {
-    background-color: rgb(70, 0, 106);
+    background-color: rgb(80, 0, 106);
 
     display: grid;
     grid-template-columns: repeat(30vh 1fr 1fr);
@@ -112,6 +137,7 @@ header ul li a.active
 
 .rev 
 {
+    
     height: 40vh;
     display:grid;
     grid-template-columns: 30vh 1fr 1fr;
@@ -123,12 +149,14 @@ a { text-decoration: none; }
 
 .preview
 {
+    border-radius: 20px;
     justify-items:center;
-    background-color:purple;
+    background-color:rgb(92, 0, 122);
 }
 
 .preview img
 {
+    border-radius: 10px;
     margin-top: 1.5vh;
     margin-left: auto;
     margin-right: auto;
@@ -155,15 +183,18 @@ a { text-decoration: none; }
 
 .andrew-rev
 {
-    background-color: purple;
+    border-radius: 20px;
+    background-color:rgb(92, 0, 122);
 }
 
 .wyman-rev
 {
-    background-color: purple;
+    border-radius: 20px;
+    background-color:rgb(92, 0, 122);
 }
 
 .checked 
 {
     color: orange;
 }
+
