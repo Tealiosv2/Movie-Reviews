@@ -162,3 +162,30 @@ header ul li a.active
         background-position: 100% 0;
     }
 }
+
+a
+{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+a:link
+{
+
+}
+
+a:visited 
+{
+
+}
+
+a:hover 
+{
+
+}
+
+a:active
+{
+
+}
