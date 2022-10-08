@@ -8,10 +8,11 @@
 
     <!--links main.css to main.html-->
     <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/locomotive-scroll.css" rel="stylesheet" />
 
 </head>
 <body>
-
+    
     <header>
         <a href="#" class="logo">Mov-E</a>
         <ul>
@@ -21,7 +22,8 @@
         </ul>
     </header>
 
-    <div class="div-intro noselect">
+    <div data-scroll-container>
+    <div class="div-intro noselect" id="top">
         <section>
             <h1>
                 <span class="h1-highlight">We rate <span class="focus"></span></span>
@@ -42,10 +44,12 @@
 
     <div class="div-summary noselect">
         <section>
-            <h3>THE BASICS</h3>
-            <h2>We look at a few <span>simple things.</span></h2>
+            <div>
+                <h3 data-scroll data-scroll-speed="0.5">THE BASICS</h3>
+                <h2 data-scroll data-scroll-speed="1">We look at a few <span>simple things.</span></h2>
+            </div>
 
-            <div class="div-category">
+            <div class="div-category" data-scroll data-scroll-speed="1.5">
                 <span class="category-icon" style="background: url(/img/icon-visual.svg) center left / contain no-repeat;
                 padding: 30px;"></span>
 
@@ -56,7 +60,7 @@
                 
             </div>
 
-            <div class="div-category">
+            <div class="div-category" data-scroll data-scroll-speed="2">
                 <span class="category-icon" style="background: url(/img/icon-audio.svg) center left / contain no-repeat;
                 padding: 30px;"></span>
 
@@ -66,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="div-category">
+            <div class="div-category" data-scroll data-scroll-speed="2.5">
                 <span class="category-icon" style="background: url(/img/icon-story.svg) center left / contain no-repeat;
                 padding: 30px;"></span>
 
@@ -100,7 +104,7 @@
     </div>
     -->
 
-
+</div>
     <!--links main.js to main.html-->
     <script src="/js/main.js"></script>
 
@@ -114,6 +118,16 @@
             loop: true,
             backDelay: 2000
         })
+    </script>
+
+    <script src="/js/locomotive-scroll.min.js"></script>
+    <script>
+        (function () {
+            var scroll = new LocomotiveScroll({
+                el: document.querySelector('[data-scroll-container]'),
+                smooth: true
+            });
+        })();
     </script>
 
 </body>
