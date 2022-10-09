@@ -189,3 +189,36 @@ a:active
 {
 
 }
+
+/* ANIMATIONS */
+
+.fade-in
+{ 
+    animation: fadeIn 1s; 
+}
+
+@keyframes fadeIn 
+    {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+.slide-in
+{
+    position: absolute;
+    left: -100px;
+    animation: slide 1s forwards;
+    animation-delay: 0s;
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.slide-fade-in 
+{
+    position: absolute;
+    left: -100px;
+    animation: slide 1s forwards, fadeIn 1s;
+    animation-delay: 0s;
+}
