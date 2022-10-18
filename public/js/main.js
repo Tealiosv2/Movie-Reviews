@@ -11,6 +11,7 @@ var one = 0;
     }
 */
 
+
 function clickreview(){
   location.href=("/review");
 }
