@@ -3,3 +3,7 @@ A collaborative site between [xegativ](https://github.com/xegativ) and Tealios, 
 
 Run website with 
 ```node movie.js```
+
+check out our hosted site :)
+https://mov-ereviews.azurewebsites.net/
+-Tealios
