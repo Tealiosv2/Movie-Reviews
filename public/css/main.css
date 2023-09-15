@@ -53,7 +53,7 @@ header .logo
 
     overflow: visible;
 
-    background: url(/img/icon.svg) center left / contain no-repeat;
+    background: url(/public/img/icon.svg) center left / contain no-repeat;
 
     color: rgb(255, 255, 255);
     
@@ -104,7 +104,7 @@ header ul li a.active
 .div-intro 
 {
 
-    background: url(/img/movies-fin.svg) bottom right / cover no-repeat, linear-gradient(90deg, rgb(75, 0, 106), rgba(99, 0, 124, 0));
+    background: url(/public/img/movies-fin.svg) bottom right / cover no-repeat, linear-gradient(90deg, rgb(75, 0, 106), rgba(99, 0, 124, 0));
 
     height: 100vh;
 }
@@ -372,7 +372,7 @@ header ul li a.active
 .xeg
 {
     margin-top: 15vh;
-    background: url('/img/xegativ.png') center / contain no-repeat;
+    background: url('/public/img/xegativ.png') center / contain no-repeat;
     overflow: visible;
 }
 
@@ -535,7 +535,7 @@ header ul li a.active
     background-color: black;
     height:100vh;
 
-    background: url(/img/eren-charging.gif) center 20vh / contain no-repeat, black;
+    background: url(/public/img/eren-charging.gif) center 20vh / contain no-repeat, black;
     background-size: 50vh;
 }
 

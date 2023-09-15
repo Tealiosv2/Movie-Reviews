@@ -43,7 +43,7 @@ header .logo
 
     overflow: visible;
 
-    background: url(/img/icon.svg) center left / contain no-repeat;
+    background: url(/public/img/icon.svg) center left / contain no-repeat;
 
     color: rgb(255, 255, 255);
     
@@ -229,7 +229,7 @@ a:active
     background-color: black;
     height:100vh;
 
-    background: url(/img/eren-charging.gif) center 20vh / contain no-repeat, black;
+    background: url(/public/img/eren-charging.gif) center 20vh / contain no-repeat, black;
     background-size: 50vh;
 }
 
