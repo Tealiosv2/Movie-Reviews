@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review</title>
+
+    <!--links main.css to main.html-->
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/locomotive-scroll.css" rel="stylesheet" />
+
+</head>
+<body> 
+    <div id="GET-SCREEN">
+        <p id="GS-MAIN">"Get A Real Screen."<br> <a style="font-size:5vh;">- Ben Mingo</a></p>   
+
+        <p id="GS-MOB">Mobile Coming Soon...</p>
+
+        <a id="GS-SUB" href="https://www.amazon.com/s?k=monitor&crid=3Q22ASZB5Y27P&sprefix=monito%2Caps%2C131&ref=nb_sb_noss_2" target="_blank"> Screens → </a>
+    </div>
+    
+    <div id="REST">
+        <header>
+            <a href="#" class="logo">Mov-E</a>
+            <ul>
+                <li><a href="#top" class="back-to-top-link"> Home </a></li>
+                <li><a href="/review"> Ratings </a></li>
+                <li><a href="/about"> About </a></li>
+            </ul>
+        </header>
+
+        <div data-scroll-container>
+        <div class="div-intro noselect" id="top">
+            <section class="slide-fade-in">
+                <h1>
+                    <span class="h1-highlight">We rate <span class="focus"></span></span>
+                </h1>
+                <h2>
+                    Hey there stranger, we are some <b class="p-highlight" style="color: rgb(0, 217, 255)">students</b> who enjoy exploring various <b class="p-highlight" style="color: rgb(255, 217, 0)">media</b>. Here are some of our <b class="p-highlight" style="color: rgb(255, 0, 238)">ratings</b>. 
+                </h2>
+
+                <button onclick="clickreview()" class="btn-slide">VIEW RATINGS</button>
+
+                <div class="media-blk">
+                    <a href="https://www.instagram.com/xegativ/" target="_blank" class="fa" style="background: url('/img/insta.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
+                    <a href="https://github.com/Tealiosv2/Mov-E-Reviews" target="_blank" class="fa" style="background: url('/img/github.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
+                    <a href="https://twitter.com/xegativ" target="_blank" class="fa" style="background: url('/img/twitter.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
+                </div>
+            </section>
+        </div>
+
+        <div class="div-summary noselect">
+            <section>
+                <div>
+                    <h3 data-scroll data-scroll-speed="0.5">THE BASICS</h3>
+                    <h2 data-scroll data-scroll-speed="1">We look at a few <span>simple things.</span></h2>
+                </div>
+
+                <div class="div-category" data-scroll data-scroll-speed="1.5">
+                    <span class="category-icon" style="background: url(/img/icon-visual.svg) center left / contain no-repeat;
+                    padding: 30px;"></span>
+
+                    <div class="category-content">
+                        <p class="category-title">Visuals</p>
+                        <p class="category-caption">Visuals enhance overall <b>viewing experience</b>, playing an integral role in the overall <b>memorability</b> of a film or show.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="div-category" data-scroll data-scroll-speed="2">
+                    <span class="category-icon" style="background: url(/img/icon-audio.svg) center left / contain no-repeat;
+                    padding: 30px;"></span>
+
+                    <div class="category-content">
+                        <p class="category-title">Soundtrack</p>
+                        <p class="category-caption">Music is not only used to <b>invoke emotions</b>, but to also <b>influence the audience's perception</b> of various scenes.</p>
+                    </div>
+                </div>
+
+                <div class="div-category" data-scroll data-scroll-speed="3">
+                    <span class="category-icon" style="background: url(/img/icon-story.svg) center left / contain no-repeat;
+                    padding: 30px;"></span>
+
+                    <div class="category-content">
+                        <p class="category-title">Storyline</p>
+                        <p class="category-caption">The storyline is <b>the base</b> of any media. A successful one will <b>improve the effect of soundtrack</b> as well as <b>engage the audience.</b></p>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <div class="div-about noselect"  style="background: url(/img/about-bg.svg) center top / cover no-repeat;">
+            <div class="div-grid">
+                <section class="section-care">
+                    <h3 data-scroll data-scroll-speed="2">ABOUT US</h3>
+                    <h2 class="h2-care" data-scroll data-scroll-speed="1.5">But why should we care about this?</h2>
+                    <h2 class="h2-why" data-scroll data-scroll-speed="1">You <span class="h2-highlight">shouldn't</span>.</h2>
+                    <p data-scroll data-scroll-speed="0.5">We made this for fun, without any <b>big .js frameworks</b>. We also <b style="color: rgb(53, 255, 93)">created all of our own assets;</b> pictures, icons, etc. Just a <b style="color: rgb(255, 252, 53)">personal project</b> for us.</p>
+                </section>
+                <section class="xeg">
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div>
+        
+        <a href="/HMC-review">howl's moving castle review</a>
+    </div>
+
+    <div>
+        <img src="/img/andrew-gamer.jpg" alt="gamer">
+    </div>
+    -->
+
+</div>
+    <!--links main.js to main.html-->
+    <script src="/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".focus", {
+            strings: ["movies.", "shows.", "books."],
+            typeSpeed: 120,
+            backSpeed: 80,
+            loop: true,
+            backDelay: 2000
+        })
+    </script>
+
+    <script src="/js/locomotive-scroll.min.js"></script>
+    <script>
+        (function () {
+            var scroll = new LocomotiveScroll({
+                el: document.querySelector('[data-scroll-container]'),
+                smooth: true
+            });
+        })();
+    </script>
+
+</body>
+</html>
