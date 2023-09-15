@@ -13,7 +13,7 @@ app.use("/html", express.static("public/html"));
 
 //returns the main page
 app.get("/", function(req, res) {
-    res.send(fs.readFileSync("./public/html/main.html", "utf8"));
+    res.send(fs.readFileSync("./public/html/index.html", "utf8"));
   });
 
   //returns howl's moving castle page
