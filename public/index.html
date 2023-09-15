@@ -7,11 +7,12 @@
     <title>Movie Review</title>
 
     <!--links main.css to main.html-->
-    <link href="/css/main.css" rel="stylesheet" />
-    <link href="/css/locomotive-scroll.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/locomotive-scroll.css" rel="stylesheet" />
 
 </head>
 <body> 
+    
     <div id="GET-SCREEN">
         <p id="GS-MAIN">"Get A Real Screen."<br> <a style="font-size:5vh;">- Ben Mingo</a></p>   
 
@@ -25,8 +26,8 @@
             <a href="#" class="logo">Mov-E</a>
             <ul>
                 <li><a href="#top" class="back-to-top-link"> Home </a></li>
-                <li><a href="/review"> Ratings </a></li>
-                <li><a href="/about"> About </a></li>
+                <li><a href="./html/reviews.html"> Ratings </a></li>
+                <li><a href="./html/about.html"> About </a></li>
             </ul>
         </header>
 
@@ -43,9 +44,9 @@
                 <button onclick="clickreview()" class="btn-slide">VIEW RATINGS</button>
 
                 <div class="media-blk">
-                    <a href="https://www.instagram.com/xegativ/" target="_blank" class="fa" style="background: url('/img/insta.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
-                    <a href="https://github.com/Tealiosv2/Mov-E-Reviews" target="_blank" class="fa" style="background: url('/img/github.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
-                    <a href="https://twitter.com/xegativ" target="_blank" class="fa" style="background: url('/img/twitter.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
+                    <a href="https://www.instagram.com/xegativ/" target="_blank" class="fa" style="background: url('/public/img/insta.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
+                    <a href="https://github.com/Tealiosv2/Mov-E-Reviews" target="_blank" class="fa" style="background: url('/public/img/github.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
+                    <a href="https://twitter.com/xegativ" target="_blank" class="fa" style="background: url('/public/img/twitter.png') center / contain no-repeat; background-size: 3vh 3vh;"></a>
                 </div>
             </section>
         </div>
@@ -58,7 +59,7 @@
                 </div>
 
                 <div class="div-category" data-scroll data-scroll-speed="1.5">
-                    <span class="category-icon" style="background: url(/img/icon-visual.svg) center left / contain no-repeat;
+                    <span class="category-icon" style="background: url(/public/img/icon-visual.svg) center left / contain no-repeat;
                     padding: 30px;"></span>
 
                     <div class="category-content">
@@ -69,7 +70,7 @@
                 </div>
 
                 <div class="div-category" data-scroll data-scroll-speed="2">
-                    <span class="category-icon" style="background: url(/img/icon-audio.svg) center left / contain no-repeat;
+                    <span class="category-icon" style="background: url(/public/img/icon-audio.svg) center left / contain no-repeat;
                     padding: 30px;"></span>
 
                     <div class="category-content">
@@ -79,7 +80,7 @@
                 </div>
 
                 <div class="div-category" data-scroll data-scroll-speed="3">
-                    <span class="category-icon" style="background: url(/img/icon-story.svg) center left / contain no-repeat;
+                    <span class="category-icon" style="background: url(/public/img/icon-story.svg) center left / contain no-repeat;
                     padding: 30px;"></span>
 
                     <div class="category-content">
@@ -91,7 +92,7 @@
             </section>
         </div>
 
-        <div class="div-about noselect"  style="background: url(/img/about-bg.svg) center top / cover no-repeat;">
+        <div class="div-about noselect"  style="background: url(/public/img/about-bg.svg) center top / cover no-repeat;">
             <div class="div-grid">
                 <section class="section-care">
                     <h3 data-scroll data-scroll-speed="2">ABOUT US</h3>
@@ -119,7 +120,7 @@
 
 </div>
     <!--links main.js to main.html-->
-    <script src="/js/main.js"></script>
+    <script src="./js/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
@@ -133,7 +134,7 @@
         })
     </script>
 
-    <script src="/js/locomotive-scroll.min.js"></script>
+    <script src="./js/locomotive-scroll.min.js"></script>
     <script>
         (function () {
             var scroll = new LocomotiveScroll({
